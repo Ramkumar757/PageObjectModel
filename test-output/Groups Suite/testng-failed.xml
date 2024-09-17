@@ -5,18 +5,18 @@
     <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="LoginTest(failed)">
-    <parameter name="os" value="Linux"/>
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="Chrome"/>
     <groups>
       <run>
-        <include name="sanity"/>
+        <include name="datadriven"/>
       </run>
     </groups>
     <classes>
       <class name="TestCases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginDataDrivenTest" invocation-numbers="0 1"/>
+          <include name="loginDataDrivenTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- TestCases.TC002_LoginTest -->

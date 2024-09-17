@@ -35,7 +35,7 @@ public class TC002_LoginTest extends BaseTest {
 		accountPage.clickLogout();
 	}
 
-	@Test(dataProvider ="LoginData" , dataProviderClass = DataProviders.class,groups = {"sanity","master"})
+	@Test(dataProvider ="LoginData" , dataProviderClass = DataProviders.class,groups = {"sanity","master","datadriven"})
 	public void loginDataDrivenTest(String email, String pwd, String expRes) throws InterruptedException {
 
 		try {

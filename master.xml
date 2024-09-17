@@ -5,7 +5,7 @@
 <listener class-name="Utilities.ExtentReportManager"/>
 </listeners>
 	<test name="LoginTest">
-		<parameter name="os" value="Linux" />
+		<parameter name="os" value="linux" />
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<!-- <class name="TestCases.TC001_AccountRegistrationTest" />-->

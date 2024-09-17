@@ -2,26 +2,29 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-16T15:19:45 IST" name="Suite" finished-at="2024-09-16T15:20:51 IST" duration-ms="66632">
+  <suite started-at="2024-09-17T10:57:14 IST" name="Suite" finished-at="2024-09-17T10:58:17 IST" duration-ms="63173">
     <groups>
+      <group name="datadriven">
+        <method signature="TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" name="loginDataDrivenTest" class="TestCases.TC002_LoginTest"/>
+      </group> <!-- datadriven -->
       <group name="regression">
-        <method signature="TC002_LoginTest.validLoginTest()[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" name="validLoginTest" class="TestCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.validLoginTest()[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" name="validLoginTest" class="TestCases.TC002_LoginTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" name="loginDataDrivenTest" class="TestCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" name="loginDataDrivenTest" class="TestCases.TC002_LoginTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" name="loginDataDrivenTest" class="TestCases.TC002_LoginTest"/>
-        <method signature="TC002_LoginTest.validLoginTest()[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" name="validLoginTest" class="TestCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" name="loginDataDrivenTest" class="TestCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.validLoginTest()[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" name="validLoginTest" class="TestCases.TC002_LoginTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-09-16T15:19:45 IST" name="LoginTest" finished-at="2024-09-16T15:20:51 IST" duration-ms="66632">
+    <test started-at="2024-09-17T10:57:14 IST" name="LoginTest" finished-at="2024-09-17T10:58:17 IST" duration-ms="63173">
       <class name="TestCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:19:45 IST" name="setUp" finished-at="2024-09-16T15:19:49 IST" duration-ms="3903" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:57:14 IST" name="setUp" finished-at="2024-09-17T10:57:18 IST" duration-ms="3729" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -33,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:19:52 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-16T15:19:56 IST" duration-ms="3665" status="PASS">
+        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:57:20 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-17T10:57:23 IST" duration-ms="2814" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataDrivenTest -->
-        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:19:56 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-16T15:20:00 IST" duration-ms="3941" status="PASS">
+        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:57:23 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-17T10:57:26 IST" duration-ms="2660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataDrivenTest -->
-        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:20:00 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-16T15:20:13 IST" duration-ms="12990" status="PASS">
+        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:57:26 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-17T10:57:38 IST" duration-ms="12068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataDrivenTest -->
-        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:20:13 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-16T15:20:26 IST" duration-ms="13024" status="PASS">
+        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:57:38 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-17T10:57:50 IST" duration-ms="12068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataDrivenTest -->
-        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:20:26 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-16T15:20:37 IST" duration-ms="11208" status="PASS">
+        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:57:50 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-17T10:58:03 IST" duration-ms="13355" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataDrivenTest -->
-        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:20:37 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-16T15:20:48 IST" duration-ms="11315" status="PASS">
+        <test-method signature="loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:58:03 IST" name="loginDataDrivenTest" data-provider="LoginData" finished-at="2024-09-17T10:58:14 IST" duration-ms="10994" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,11 +162,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataDrivenTest -->
-        <test-method signature="validLoginTest()[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:20:48 IST" name="validLoginTest" finished-at="2024-09-16T15:20:51 IST" duration-ms="2628" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:58:14 IST" name="validLoginTest" finished-at="2024-09-17T10:58:17 IST" duration-ms="2362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_LoginTest@7a362b6b]" started-at="2024-09-16T15:20:51 IST" name="tearDown" finished-at="2024-09-16T15:20:51 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC002_LoginTest@21337f7b]" started-at="2024-09-17T10:58:17 IST" name="tearDown" finished-at="2024-09-17T10:58:17 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

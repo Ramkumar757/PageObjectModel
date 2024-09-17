@@ -28,7 +28,7 @@ public class BaseTest {
 	public Logger logger;
 	public Properties properties;
 
-	@BeforeClass(groups = { "sanity", "regression", "master" })
+	@BeforeClass(groups = { "sanity", "regression", "master","datadriven"})
 	@Parameters({ "os", "browser" })
 	public void setUp(String os, String browser) throws IOException {
 
@@ -43,9 +43,9 @@ public class BaseTest {
 
 			if (os.equalsIgnoreCase("windows")) {
 				cap.setPlatform(Platform.WIN10);
-			} else if (os.equalsIgnoreCase("Mac")) {
+			} else if (os.equalsIgnoreCase("mac")) {
 				cap.setPlatform(Platform.MAC);
-			} else if (os.equalsIgnoreCase("Linux")) {
+			} else if (os.equalsIgnoreCase("linux")) {
 				cap.setPlatform(Platform.LINUX);
 			} else {
 				System.out.println("No mactching OS present");
@@ -90,7 +90,7 @@ public class BaseTest {
 		driver.get(properties.getProperty("appUrl"));
 	}
 
-	@AfterClass(groups = { "sanity", "regression", "master" })
+	@AfterClass(groups = { "sanity", "regression", "master","datadriven" })
 	public void tearDown() {
 
 		if (driver != null) {
@@ -98,6 +98,7 @@ public class BaseTest {
 		}
 	}
 
+	
 	public String randomString() {
 		return RandomStringUtils.randomAlphabetic(6);
 
@@ -116,7 +117,7 @@ public class BaseTest {
 	public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		TakesScreenshot takesScreenshot = (TakesScreenshot) BaseTest.driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
 		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + " - " + timeStamp + ".png";
