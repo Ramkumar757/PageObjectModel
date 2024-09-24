@@ -14,6 +14,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.mail.DefaultAuthenticator;
+import org.apache.commons.mail.ImageHtmlEmail;
+import org.apache.commons.mail.resolver.DataSourceUrlResolver;
 import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -118,21 +121,27 @@ public class ExtentReportManager implements ITestListener, IAnnotationTransforme
 		try {
 			URL url = new URL("file:///" + System.getProperty("user.dir") + "\\reports\\" + repName);
 
+			
 			/*
-			 * // Create the email message ImageHtmlEmail email = new ImageHtmlEmail();
+			 * //Create the email message ImageHtmlEmail email = new ImageHtmlEmail();
 			 * email.setDataSourceResolver(new DataSourceUrlResolver(url));
-			 * email.setHostName("smtp.googlemail.com"); email.setSmtpPort(465);
+			 * email.setHostName("smtp.gmail.com"); email.setSmtpPort(587);
 			 * email.setAuthenticator(new
-			 * DefaultAuthenticator("pavanoltraining@gmail.com","password"));
-			 * email.setSSLOnConnect(true); email.setFrom("pavanoltraining@gmail.com");
-			 * //Sender email.setSubject("Test Results");
+			 * DefaultAuthenticator("gerigaramkumar@gmail.com","Ram143@@"));
+			 * email.setSSLOnConnect(true); email.setFrom("ramkumarreddy757@gmail.com");
+			 * email.setSubject("Test Results");
 			 * email.setMsg("Please find Attached Report....");
-			 * email.addTo("pavankumar.busyqa@gmail.com"); //Receiver email.attach(url,
-			 * "extent report", "please check report..."); email.send(); // send the email
-			 */ } catch (Exception e) {
+			 * email.addTo("ramkumarreddy757@gmail.com"); //Receiver
+			 * email.attach(url,"extent report", "please check report..."); email.send(); //
+			 * send the email
+			 */			 
+			  } catch (Exception e) {
 			e.printStackTrace();
 		}
-
+		/*
+		 * smtp.host=smtp.gmail.com smtp.port=587 smtp.ssl=yes smtp.user="me@gmail.com"
+		 * smtp.password="myPassword"
+		 */
 	}
 
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
