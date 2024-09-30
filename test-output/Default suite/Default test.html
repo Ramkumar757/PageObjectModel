@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 14 15:25:20 IST 2024</td>
+<td>Started on:</td><td>Wed Sep 25 21:31:35 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (111 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (159 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,18 +76,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestCases.TC002_LoginTest.setUp()'><b>setUp</b><br>Test class: TestCases.TC002_LoginTest</td>
+<td title='TestCases.TC003_AddToCart.setUp()'><b>setUp</b><br>Test class: TestCases.TC003_AddToCart</td>
 <td><div><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+Parameter &apos;os&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gramk\AppData\Local\Temp\testng-eclipse--793929897\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -101,18 +103,20 @@ For more information on native dependency injection please refer to https://test
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace276748028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace276748028'><pre>org.testng.TestNGException: 
-Can inject only one of &lt;ITestContext, XmlTest&gt; into a @BeforeTest annotated setUp.
-For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+</pre></div><a href='#' onClick='toggleBox("stack-trace144445623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace144445623'><pre>org.testng.TestNGException: 
+Parameter &apos;os&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gramk\AppData\Local\Temp\testng-eclipse--793929897\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
-	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -127,11 +131,11 @@ For more information on native dependency injection please refer to https://test
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>-1726307720</td>
-<td>TestCases.TC002_LoginTest@1bb1fde8</td></tr>
+<td>-1727280095</td>
+<td>TestCases.TC003_AddToCart@3e34ace1</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -139,32 +143,17 @@ For more information on native dependency injection please refer to https://test
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestCases.TC002_LoginTest.tearDown()'><b>tearDown</b><br>Test class: TestCases.TC002_LoginTest</td>
-<td></td>
-<td>0</td>
-<td>TestCases.TC002_LoginTest@1bb1fde8</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestCases.TC002_LoginTest.loginDataDrivenTest()'><b>loginDataDrivenTest</b><br>Test class: TestCases.TC002_LoginTest</td>
+<td title='TestCases.TC003_AddToCart.addToCart()'><b>addToCart</b><br>Test class: TestCases.TC003_AddToCart</td>
 <td><div><pre>org.testng.TestNGException: 
-Method public void TestCases.TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData in class org.testng.annotations.DataProvider
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+Parameter &apos;os&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gramk\AppData\Local\Temp\testng-eclipse--793929897\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
@@ -181,18 +170,17 @@ Method public void TestCases.TC002_LoginTest.loginDataDrivenTest(java.lang.Strin
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace375097969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace375097969'><pre>org.testng.TestNGException: 
-Method public void TestCases.TC002_LoginTest.loginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData in class org.testng.annotations.DataProvider
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1622613647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1622613647'><pre>org.testng.TestNGException: 
+Parameter &apos;os&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gramk\AppData\Local\Temp\testng-eclipse--793929897\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
@@ -211,7 +199,7 @@ Method public void TestCases.TC002_LoginTest.loginDataDrivenTest(java.lang.Strin
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>TestCases.TC002_LoginTest@1bb1fde8</td></tr>
+<td>TestCases.TC003_AddToCart@3e34ace1</td></tr>
 </table><p>
 </body>
 </html>

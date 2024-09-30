@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-24T18:11:58 IST" name="Suite" finished-at="2024-09-24T18:12:05 IST" duration-ms="6743">
+  <suite started-at="2024-09-24T19:31:54 IST" name="Suite" finished-at="2024-09-24T19:32:01 IST" duration-ms="7003">
     <groups>
       <group name="regression">
-        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@3e5499cc]" name="verify_AccountRegistration" class="TestCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@60df60da]" name="verify_AccountRegistration" class="TestCases.TC001_AccountRegistrationTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@3e5499cc]" name="verify_AccountRegistration" class="TestCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@60df60da]" name="verify_AccountRegistration" class="TestCases.TC001_AccountRegistrationTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@3e5499cc]" name="verify_AccountRegistration" class="TestCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@60df60da]" name="verify_AccountRegistration" class="TestCases.TC001_AccountRegistrationTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-09-24T18:11:58 IST" name="LoginTest" finished-at="2024-09-24T18:12:05 IST" duration-ms="6743">
+    <test started-at="2024-09-24T19:31:54 IST" name="LoginTest" finished-at="2024-09-24T19:32:01 IST" duration-ms="7003">
       <class name="TestCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC001_AccountRegistrationTest@3e5499cc]" started-at="2024-09-24T18:11:59 IST" name="setUp" finished-at="2024-09-24T18:12:02 IST" duration-ms="3557" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC001_AccountRegistrationTest@60df60da]" started-at="2024-09-24T19:31:54 IST" name="setUp" finished-at="2024-09-24T19:31:58 IST" duration-ms="3815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,11 +32,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@3e5499cc]" started-at="2024-09-24T18:12:02 IST" name="verify_AccountRegistration" finished-at="2024-09-24T18:12:05 IST" duration-ms="2347" status="PASS">
+        <test-method signature="verify_AccountRegistration()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@60df60da]" started-at="2024-09-24T19:31:58 IST" name="verify_AccountRegistration" finished-at="2024-09-24T19:32:00 IST" duration-ms="2392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_AccountRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@3e5499cc]" started-at="2024-09-24T18:12:05 IST" name="tearDown" finished-at="2024-09-24T18:12:05 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC001_AccountRegistrationTest@60df60da]" started-at="2024-09-24T19:32:00 IST" name="tearDown" finished-at="2024-09-24T19:32:01 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

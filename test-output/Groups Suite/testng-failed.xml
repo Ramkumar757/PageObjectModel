@@ -4,22 +4,21 @@
   <listeners>
     <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="LoginTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="AddToCart(failed)">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="firefox "/>
     <groups>
       <run>
-        <include name="datadriven"/>
+        <include name="sanity"/>
       </run>
     </groups>
     <classes>
-      <class name="TestCases.TC002_LoginTest">
+      <class name="TestCases.TC003_AddToCart">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginDataDrivenTest"/>
+          <include name="addToCart"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.TC002_LoginTest -->
+      </class> <!-- TestCases.TC003_AddToCart -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- AddToCart(failed) -->
 </suite> <!-- Failed suite [Groups Suite] -->

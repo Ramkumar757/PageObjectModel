@@ -5,17 +5,15 @@
     <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="LoginTest(failed)">
-    <parameter name="os" value="Linux"/>
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC002_LoginTest">
+      <class name="TestCases.TC003_AddToCart">
         <methods>
-          <include name="tearDown"/>
-          <include name="validLoginTest"/>
-          <include name="loginDataDrivenTest"/>
+          <include name="addToCart"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.TC002_LoginTest -->
+      </class> <!-- TestCases.TC003_AddToCart -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,2 +1,2 @@
-C:\Users\gramk\eclipse-workspace\PageOjectModel
-mvn clean test
+cd C:\Users\gramk\eclipse-workspace\PageOjectModel
+mvn test
